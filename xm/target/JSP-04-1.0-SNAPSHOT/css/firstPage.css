@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+.user{
+    background: url("../img/User.png") no-repeat 5px;
+    height: 25px;
+    padding-left: 25px;
+    border:2px solid;
+    border-radius:10px;
+}
+.password{
+    background: url("../img/Password.png") no-repeat 5px;
+    padding-left: 25px;
+    border:2px solid;
+    border-radius:10px;
+    height: 25px;
+}
+.button {
+    display: inline;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
